@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="./styles/general.css" />
+  <link rel="stylesheet" href="./styles/login.css" />
+
+</head>
+
+<body>
+  <div class="header" id="myHeader">
+
+    <a href="../pages/Register.html">
+      <span class="register-btn"> Register</span>
+    </a>
+
+    <div class="header-right">
+      <a href="../pages/landing.html">
+        Home
+      </a>
+      <a href="../pages/Products.html">
+      Products</a>
+      <a href="../pages/ContactUs.html">
+        <span class="contactt"> Contact Us</span>
+      </a>
+      <a href="../pages/AboutUs.html">About Us</a>
+
+    </div>
+  </div>
+  <script   src="../pages/javascript/scroll.js"> </script>
+
+
+
+
+  <div class="mainDiv" id="loginForm">
+    <div class="formTitle">
+      <h2><i>Login Form</i></h2>
+    </div>
+    <form action="/action_page.php" method="post">
+      <div class="imgcontainer">
+        <img src="../images/sunflower.jpg" alt="Avatar" class="avatar">
+      </div>
+
+      <div class="container">
+        <label for="uname">Username</label>
+        <input type="text" placeholder="Enter Username" name="uname" required>
+
+        <label for="psw">Password</label>
+        <input type="password" placeholder="Enter Password" name="psw" required>
+
+        <button type="submit">Login</button>
+        <label>
+          <input type="checkbox" checked="checked" name="remember"> Remember me
+        </label>
+      </div>
+
+    </form>
+  </div> 
+</body>
+
+</html>

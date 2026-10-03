@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: classic;
+  background-color: rgb(230, 206, 179);
+
+}
+
+.header {
+  overflow: hidden;
+  background-color: rgba(82, 74, 66, 0.849);
+  padding: 10px;
+}
+
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 15px;
+  line-height: 15px;
+  border-radius: 7px;
+}
+
+
+
+.header a.active {
+
+  color: rgb(207, 135, 40);
+  font-weight: bold;
+}
+
+.header a:hover {
+
+  color: rgb(207, 135, 40);
+}
+
+.header a.logo {
+  font-size: 18px;
+  font-weight: bold;
+  background-color: green;
+  color: white;
+}
+
+.header a:hover {
+  background-color: rgba(183, 190, 188, 0.2);
+  color: rgb(145, 102, 46);
+}
+
+.header a .login-btn {
+  color: rgb(238, 238, 238);
+  margin-right: 5px;
+  border: 1px solid rgb(255, 255, 255);
+  padding: 10px;
+}
+
+.header a .register-btn {
+  color: rgb(255, 255, 255);
+  margin-right: 5px;
+  border: 1px solid rgb(255, 255, 255);
+  padding: 10px;
+}
+
+
+
+
+
+.header-right {
+  float: right;
+}
+
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+  .header-right {
+    float: none;
+  }
+
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: rgb(171, 190, 184);
+
+}
+
+.sticky+.content {
+  padding-top: 102px;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(40, 66, 56, 0.2);
+  color: white;
+  text-align: left;
+  height: 1.2cm;
+}

@@ -1,0 +1,16 @@
+.about-section {
+    padding: 50px;
+    text-align: center;
+    color: rgb(59, 42, 19);
+}
+
+.about-us-image {
+    text-align: center;
+}
+ 
+
+@media screen and (max-width: 900px) and (min-width: 200px) {
+    .about-us-image img {
+        width: 100%;
+    }
+}

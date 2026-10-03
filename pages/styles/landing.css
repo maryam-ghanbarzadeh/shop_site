@@ -1,0 +1,63 @@
+body {
+  background-image: url('../../images/pngtree-online-shopping-in-3d-bringing-the-store-to-you-picture-image_4044700.jpg');
+  background-repeat: no-repeat;
+  /* background-size: 100%; */
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100%;
+
+}
+
+.text {
+  color: rgb(226, 224, 210);
+  font-family: iMans Greback;
+  font-size: 180px;
+  text-align: center;
+
+}
+
+.price {
+  color: rgb(255, 255, 255);
+  font-size: 22px;
+}
+
+
+.card button:hover {
+  opacity: 0.7;
+
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 200px;
+  margin: auto;
+  text-align: center;
+  font-family: classic;
+  color: azure;
+  font-size: 10px;
+  float: right;
+  margin-right: 30px;
+
+}
+
+.price {
+  color: rgb(255, 255, 255);
+  font-size: 22px;
+}
+
+
+.card button:hover {
+  opacity: 0.7;
+}
+
+.card div img {
+  width: 150px;
+  height: 150px;
+}
+
+.all-card {
+  position: absolute;
+  bottom: 25px;
+  width: 100%;
+}
